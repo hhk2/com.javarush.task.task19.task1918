@@ -28,8 +28,8 @@ public class Solution {
             Matcher outMstcherStart = outpatternStart.matcher(st);
             Matcher outMstcherEnd = outpatternEnd.matcher(st);
             ArrayList<Integer> StarinexsStart = new ArrayList<>();//лист начадьых индексов начал тегов
-            ArrayList<Integer> EndinexsEnd = new ArrayList<>();//лист конечных индексов начал тегов
-            ArrayList<Integer> StarinexsEnd = new ArrayList<>();//лист начадьых индексов концов тегов
+            ArrayList<Integer> StarinexsEnd = new ArrayList<>();//лист конечных индексов начал тегов
+            ArrayList<Integer> EndinexsEnd = new ArrayList<>();//лист начадьых индексов концов тегов
             ArrayList<Integer> EndinexsStart = new ArrayList<>();//лист конечных индексов концов тегов
             while (outMstcherStart.find()) {
                 StarinexsStart.add(outMstcherStart.start());//заполнение листа начадьых индексов начал тегов
